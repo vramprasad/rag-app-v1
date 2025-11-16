@@ -1,0 +1,7 @@
+Download ollama
+Install ollama
+
+Pull models
+ollama pull lama2
+ollama serve
+
