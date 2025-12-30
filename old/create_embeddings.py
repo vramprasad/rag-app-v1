@@ -1,5 +1,5 @@
 import os, shutil
-from langchain.embeddings import LlamaCppEmbeddings
+from langchain_community.embeddings import LlamaCppEmbeddings
 from langchain.schema import Document
 from langchain.vectorstores import Chroma
 
@@ -7,7 +7,7 @@ CHROMA_PATH = "./chroma_db"
 LLAMA_MODEL_PATH = "/c/Users/prasad/.ollama/models/meta-llama-3.1-8b-instruct-q4_k_m.gguf"  # <-- replace with your local model file
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "data
+DATA_PATH = "data"
 
 
 def main():

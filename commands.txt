@@ -2,26 +2,30 @@ Create a Virtual env in Windows
 cd Project_folder
 python -m venv venv
 source venv/Scripts/activate
-
+deactivate
 
 python -m pip --version 
 # This should point to venv folder
 
 pip install requests flask
+
 pip freeze > requirements.txt
+pip install -r requirements.txt
 
-deactivate
-
-
-
-
-Download ollama
-Install ollama
+pip list
+pip list | grep name
 
 
+
+
+
+
+ollama commands
+---------------
 ollama pull lama2 - pulls models
 ollama serve - starts the server
 ollama ps - list all active models
 ollama list - list all installed models 
 ollama run <model_name> - Load a model into memory
+ollama run myllama3
 
