@@ -1,7 +1,7 @@
 Create a Virtual env in Windows
 cd Project_folder
-python -m venv venv
-source venv/Scripts/activate
+python -m venv rag-env
+source rag-env/Scripts/activate
 deactivate
 
 python -m pip --version 
